@@ -1,0 +1,28 @@
+body {
+	font-family: 'Brush Script MT', cursive;
+	background-color: rgb(27, 167, 203);
+}
+
+.container {
+	text-align: center;
+}
+
+.Heading {
+	font-size: 75px;
+	color: rgb(212, 236, 242);
+	margin: 10px auto;
+}
+
+.board {
+	display: grid;
+	grid-template-columns: repeat(5, 80px);
+	grid-template-rows: repeat(6, 80px);
+	color: rgb(11, 64, 82);
+	justify-content: center;
+}
+
+.cell {
+	border: 1px solid #dbf4f9;
+	margin: 3px;
+	caret-color: rgba(0, 0, 0, 0);
+}
